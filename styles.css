@@ -16,14 +16,14 @@
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(4,30px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 30px);
+    grid-template-columns: repeat(4,5rem);
+    grid-template-rows: minmax(10rem, 4rem) repeat(5, 20%);
   }
   
   .calculator-grid > button {
-    
     cursor: pointer;
-    font-size: 0.75rem;
+    font-size: 2rem;
+    padding: 1rem;
     border: 1px solid rgb(241, 241, 241);
     outline: none;
     background-color: rgba(255, 255, 255, .75);
